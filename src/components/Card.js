@@ -1,7 +1,8 @@
-export const Card = ({src,onClick,id}) =>{
+export const Card = ({src,onClick,id,character}) =>{
+    
     return(
-        <div id={id} className="card" onClick={onClick} >
-           <img  src={src} alt="" ></img>
+        <div  style={{width:150}} id={id} className="card" onClick={onClick} >
+           <img character={character} src={src} alt="" ></img>
         </div>
     );
 };

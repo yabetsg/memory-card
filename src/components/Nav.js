@@ -7,7 +7,7 @@ export const Nav = ({current,high})=>{
         <header>
             <nav>
                <h1>Overwatch Memory Game</h1>
-               <p>Current Score:{current}</p>
+               <p>Current Score: {current}</p>
                <p>High Score: {high}</p> 
             </nav>
         </header>
