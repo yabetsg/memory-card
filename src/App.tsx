@@ -1,8 +1,6 @@
+/* eslint-disable react/jsx-no-undef */
 
 import './styles/App.css';
-import { Nav } from './components/Nav';
-import { Card } from './components/Card';
-import sombra from './imgs/sombra.png'
 import { Display } from './components/Display';
 function App() {
   return (

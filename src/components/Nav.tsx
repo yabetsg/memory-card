@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-export const Nav = ({current,high})=>{
+
+interface NavProps{
+    current:number;
+    high:number;
+}
+export const Nav: React.FC<NavProps> = ({current,high})=>{
     
     return(
         <div>
